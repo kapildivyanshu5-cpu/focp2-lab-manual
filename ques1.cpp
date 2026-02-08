@@ -11,6 +11,7 @@ cout<<"enter the no of student 3" ;
 cin>>o ;
 p=(n+m+o)/3 ;
 cout<<"the average marks of 3 students is "<<p ;
+cout<<"my name is divyanshu"
 
 
 
