@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+void findMinMax(int arr[], int size, int &minVal, int &maxVal) {
+    for(int i=0;i<4;i++){
+        
+      if(arr[i]>max){
+        max=arr[i];
+      }
+    }cout<<"this the max value storde in integer";
+
+
+
+    for(int i=0;i<4;i++){
+        
+      if(arr[i]<min){
+        min=arr[i];
+      }
+    }cout<<"this the min value storde in an array"<<min ;
+}
+
+int main(){
+int max=0;int min=100000;
+int n=4;
+int mn[4]={1,2,3,4};
+findminmax(mn,n,)
+
+}
