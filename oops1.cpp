@@ -6,7 +6,7 @@ string name;
 int roolno;
 int marks1;
 int marks2 ;
-int marks3;
+int marks3; 
 void inputdetails(){
 cout<<"enter the rool no,name,marks1,marks2,marks3";
 cin>>roolno>>name>>marks1>>marks2>>marks3;
