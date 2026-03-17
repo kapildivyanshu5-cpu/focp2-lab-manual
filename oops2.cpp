@@ -1,24 +1,22 @@
 #include<iostream>
 using namespace std ;
-class rectangle{
-    public:
+class Rectangle{
+    
     float length ;
-    float width;
-void inputdetails(){
-cout<<"enter length ,width";
-cin>>length>>width ;
 
-} float area(){
-return length*width;
+    float width;public:
+    Rectangle();
+Rectangle(int n);
+Rectangle(int ,int);
+int calculateArea();
+int calculatePerimeter();
 
-}
+void display();
+
 };
-int main(){
-rectangle a1;
- a1.inputdetails();
-cout<<a1.area();
+Rectangle::Rectangle()
+{length=width=0;}
+Rectangle::Rectangle(int n)
+Rectangle::Rectangle;
 
 
-
-
-}
